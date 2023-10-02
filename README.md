@@ -11,3 +11,15 @@ Utworzenie folderu venv
 ```python
 py -m venv .venv
 ```
+Instalacja bibliotek
+```python
+pip install -r requirements.txt
+```
+Aktywacja venv
+```python
+.venv/Scripts/activate
+```
+Odpalenie skryptu
+```python
+py main.py
+```
